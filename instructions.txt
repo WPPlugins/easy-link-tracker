@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+h2 { font-size: 1.4rem; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.2rem; }
+#instructions p  { font-size: 1.1rem; line-height: 1.5;}
+</style>
+</head>
+<body>
+<div id="instructions">
+<h1>Easy Link Tracking Instruction Sheet</h1>
+
+<p>All URLs that <strong>YOU WANT TRACKED</strong> using Google Analytics Event Tracking must be created using a SHORTCODE and NOT using the 
+standard HTML syntax of <code>&lt;a href="link">&lt;/a&gt;</code>. Yes, you can create your links using standard HTML syntax, but please take
+note that Google Analytics Event Tacking will not be tracking the clicks on those links.</p>
+
+<h3>How to Create an Affiliate Link</strong></h3>
+<p>Please use the ezLink shortcode to have your affiliate links tracked. Take note that the category name affiliate links are labeled as 'affiliate.'<br />
+[ezLink url="http://www.YOUR-DOMAIN.com/go/AFFILIATE-LINK" category="affiliate"]Genesis Framework[/ezLink]
+</p>
+
+<h3>How to Create a Download Link</strong></h3>
+<p>Please use the ezLink shortcode to have your download files tracked. Take note that the category name for download files are labeled as 'download.'<br />
+[ezLink url="http://www.YOUR-DOMAIN.com/go/FILENAME" category="download"]Free SEO Checklist[/ezLink]
+</p>
+
+<h3>Google Guidelines for Affiliate/Paid Links</h3>
+<p>Google recommends that you rel=nofollow paid links and that you inform Googlebot to not crawl the directory of your affiliate links. In the case of this plugin
+the directory name for affiliate links is the folder named 'go.'</p>
+
+<h2>Additional Reading</h2>
+
+<p>Google Analytics <a href="https://developers.google.com/analytics/devguides/collection/gajs/eventTrackerGuide">Event Tracking</a></p>
+
+<p>Google's definition of <a href="https://support.google.com/webmasters/answer/66356?hl=en">Link Schemes</a></p>
+</div>
+</body>
+</html>
